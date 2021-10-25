@@ -272,7 +272,7 @@ func doScan(dest interface{}, rows Rows, alias string) error {
 		if len(alias) > 0 {
 			name = strings.Replace(name, alias+"_", "", 1)
 		}
-		idx, ok := fieldInfo[strings.ToLower(name)]
+		idx, ok := fieldInfo[NameMapper(name)]
 		var v interface{}
 		if !ok {
 			// There is no field mapped to this column so we discard it
