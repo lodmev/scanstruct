@@ -1,7 +1,7 @@
 // Copyright 2012 Kamil Kisiel. All rights reserved.
 // Use of this source code is governed by the MIT
 // license which can be found in the LICENSE file.
-package sqlstruct
+package scanstruct
 
 import (
 	"reflect"
