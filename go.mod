@@ -1,3 +1,3 @@
-module github.com/lodmev/sqlstruct
+module github.com/lodmev/scanstruct
 
 go 1.16
