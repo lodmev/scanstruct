@@ -78,7 +78,7 @@ by the same alias, using the ColumnsAliased and ScanAliased functions:
     fmt.Printf("%+v", *user.HomeAddress)
     // output: "{Id:2 City:Vilnius Street:Plento 34}"
 */
-package sqlstruct
+package scanstruct
 
 import (
 	"bytes"
